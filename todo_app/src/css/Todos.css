@@ -1,0 +1,53 @@
+
+.Todos {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    background-color:lightskyblue;
+    color:rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.TodoForm {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.TodoList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.TodoList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.TodoList li.on {
+    background-color: #e0f7fa; /* 완료된 항목의 배경색 */
+    align-items: center;
+}
+
+.TodoList li span {
+    cursor: pointer;
+    align-items: center;
+}
+
+.TodoList li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
